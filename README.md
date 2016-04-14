@@ -3,7 +3,7 @@ This is my version of the Pong Game implemented using JS with Bootstrap and JQue
 
 ## Application
 
-* **Interface:** [Twitter Bootstrap](http://twitter.github.com/bootstrap/) v3.3.6
+* **Interface:** HTML 5 + [Twitter Bootstrap](http://twitter.github.com/bootstrap/) v3.3.6
 
 * **Engine:** [JQuery]( https://github.com/jquery/jquery-dist.git) v2.2.0
 
@@ -12,8 +12,6 @@ This is my version of the Pong Game implemented using JS with Bootstrap and JQue
 $ git clone https://github.com/asdcamargo/games-pongjs.git
 
 $ cd games-pongjs
-
-$ npm install
 
 $ npm start
 
