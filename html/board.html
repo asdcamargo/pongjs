@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+
+</head>
+<body>
+  <div id="instructions">
+    Implementation of the classic arcade game <a href="https://en.wikipedia.org/wiki/Pong">'Pong'.</a>
+    <br/>
+    Uses HTML 5 canvas and JQuery.
+    <br/>
+    Developed by <a href="https://plus.google.com/u/0/115800056344195753956/posts">Andre de Camargo.</a>
+    <br/>
+    Press 'Enter/Return' to throw the ball. 'W' or 'S' to move the left paddle <br/> and 'O' or 'L' to move the right paddle.
+    <br/>I Hope you enjoy!
+    <br/>
+    <button class="btn btn-default" id="new-game">New Game!</button>
+  </div>  
+  
+  <div id="score-board">
+    
+    <div class="col-md-12 text-center">
+      <label><b>SCORE</b></label>
+    </div>
+     <div class="row p1">
+    <input class="col-md-7" type="text" value="Player1"></input>
+    <label id="score-p1" class="score-number">0</label>
+    </div>
+    <div class="row p2">
+    <input class="col-md-7" type="text" value="Player2"></input>
+  <label id="score-p2" class="score-number">0</label>
+    </div>
+ </div>
+  </div>
+<canvas id="canvas">
+</canvas>
+<script  src="../js/jquery-2.2.3.min.js"> </script>
+<script  src="../js/pong.js"></script>
+</body>
+</html>

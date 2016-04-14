@@ -1,0 +1,60 @@
+#canvas{
+  padding: 0;
+}
+
+#score-board{
+  font-family: 'Consolas';
+  font-size: 1.3em;
+  margin: 10px 0px 0px 10px;
+  padding: 5px 5px 5px 20px;
+  width: auto;
+  height: auto;
+  float:left;
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: 10px 10px 5px #888888;
+  z-index: 2;
+  text-align: left;
+   background-image:
+    linear-gradient(
+      20deg, 
+      green, #f06d06
+    );
+}
+button{
+  cursor: 'hand';
+}
+input{
+ margin-top: 5px; 
+}
+
+.p1{
+  color: #0000FF;
+}
+
+.p2{
+  color: #00FF00;
+}
+
+.score-number{
+ margin-top: 1px;
+  margin-left: 20px;
+ float: left;
+ font-size: 1.5em; 
+}
+
+#instructions{
+  padding-left: 5px;
+ text-align: left;
+  float:right;
+ font-size: 1.2em;
+ font-family: "Segoe UI"; 
+   border-style: solid;
+  border-width: 3px;
+  font-style: bold;
+  background-image:
+    linear-gradient(
+      20deg, 
+      white, #f06d06
+    );
+}
