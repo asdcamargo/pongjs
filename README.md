@@ -19,9 +19,8 @@ $ npm start
 
 ## How to play
 
-* Use W or S to move the left paddle. Use O or L to move the right paddle
-* Enter start the round. Every time the ball hits one of the paddles the velocity is increased to add more fun to the game. 
-
+* Use 'W' or 'S' to move the left paddle. Use 'O' or 'L' to move the right paddle
+* Press 'Enter' to start the round. Every time the ball hits one of the paddles the velocity is increased to add more fun to the game. 
 ## Licenses
 
 * This code is licensed under the [MIT License].
